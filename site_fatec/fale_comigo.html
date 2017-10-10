@@ -1,0 +1,54 @@
+﻿<!DOCTYPE HTML>
+<html lang="pt-br">
+   <head>
+      <meta charset="utf-8">
+      <title>Fale Comigo</title>
+      <link    
+         rel="stylesheet"
+         type= "text/css"
+         href="estilo.css">
+   </head>
+  
+   <body>
+      <!--CABEÇALHO-->
+      <header>
+         <header id="topo">
+            <a target="_blank" href="http://www.fatecjahu.edu.br/"><img id="logo" src= "imagens/logo.png"></img></a>
+            <img id="nome" src="imagens/nome.png"></img>
+         </header>
+         <nav id="menu">
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="fatec.html">Fatec</a></li>
+               <li><a href="curriculo.html">Currículo</a></li>
+               <li><a href="hobbies.html">Hobbies</a></li>
+               <li><a href="fale_comigo.html">Fale Comigo</a></li>
+               <li><a href="links.html">links</a></li>
+            </ul>
+         </nav>
+      </header>
+   
+      <!--Conteúdo-->
+      <section id="conteudo">
+         <h3>Preencha o formulário e eu entrarei em contato com você :)</h3>
+         <form id="todoForm" name="fale_comigo" method="post" action="enviar.php">
+            <label>Nome:</label><br>
+            <input class="text" name="nome" type="text" size="33" maxlength="1000"><br>
+            <label>*e-mail:</label><br>
+            <input class="text" name="email" type="text" size="33" maxlength="1000"><br>
+            <label>Assunto:</label><br>
+            <input class="text" name="subject" type="text" size="33" maxlength="1000"><br>
+            <label>*Comentários:</label><br>
+            <textarea name="comentario" cols="25" rows="4" ></textarea><br>
+            <input name="submit" type="submit" class="botao" value="Enviar"><br>
+            *Campos de preenchimento obrigatório
+         </form>
+      </section>
+   
+      <!--Rodapé-->
+      <footer id="rodape">
+         Desenvolvido por Jonathan Gomes - Todos direitos Reservados.
+      </footer>
+      
+   </body>
+</html>
